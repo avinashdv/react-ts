@@ -1,0 +1,80 @@
+.tab-active {
+  background-color: blue;
+}
+.tab-inactive {
+  background-color: white;
+}
+
+.products {
+  margin: 0 300px;
+}
+
+.product-list {
+  border: 1px solid black;
+  margin: 12px 0;
+  padding: 12px;
+}
+
+.category-filter {
+  margin-right: 8px;
+}
+
+.theme-body {
+  width: 100%;
+  height: 100vh;
+}
+
+.light-bg {
+  background-color: white;
+  color: black;
+}
+
+.dark-bg {
+  background-color: black;
+  color: white;
+}
+
+.faq-question {
+  border: 1px solid black;
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.faq-answer-disabled {
+  display: none;
+}
+
+.faq-answer-active {
+  display: block;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-box {
+  width: 300px;
+  max-height: 300px;
+}
+
+.image {
+  margin: 0 12px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.modal-portal {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
